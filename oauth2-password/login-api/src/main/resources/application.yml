@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    api:
+      url: http://gateway.ityoudream.com:9070
+  sensitive-headers:
+spring:
+  application:
+    name: gateway
+  redis:
+    host: localhost
+    port: 6379
